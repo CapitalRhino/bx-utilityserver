@@ -25,3 +25,4 @@ def barcodereader():
 @app.route("/hello", methods=["GET"])
 def hello():
     return "hello"
+app.run(host='0.0.0.0', port=80)
