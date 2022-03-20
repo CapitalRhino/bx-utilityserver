@@ -22,5 +22,6 @@ def barcodereader():
     data = image_decode[0].data
     print(data)
     return {"status":200,"barcodedata":data.decode('UTF-8')}
-
-
+@app.route("/hello", methods=["GET"])
+def hello():
+    return "hello"
