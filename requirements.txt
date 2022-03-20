@@ -1,5 +1,7 @@
 pyzbar
 opencv-python
+ast
+base64
 numpy
 flask
 flask_restful
