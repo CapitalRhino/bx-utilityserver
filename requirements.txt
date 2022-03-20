@@ -1,0 +1,6 @@
+pyzbar
+opencv-python
+numpy
+flask
+flask_restful
+flask_cors
