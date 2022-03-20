@@ -23,6 +23,4 @@ def barcodereader():
     print(data)
     return {"status":200,"barcodedata":data.decode('UTF-8')}
 
-if __name__ == "__main__":
-    app.run(debug=True)
 
